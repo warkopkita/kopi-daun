@@ -1,0 +1,29 @@
+{
+  "cafe_name": "Kopi Nusantara",
+  "tagline": "Secangkir kebahagiaan di setiap tegukan",
+  "contact": {
+    "whatsapp": "6281234567890",
+    "email": "halo@kopinusantara.id",
+    "phone": "(022) 1234-5678",
+    "address": "Jl. Kopi Nusantara No. 88, Kelurahan Kafe Indah, Kecamatan Aroma, Kota Bandung, Jawa Barat 40115"
+  },
+  "social_media": {
+    "instagram": "https://instagram.com/kopinusantara",
+    "instagram_handle": "@kopinusantara",
+    "tiktok": "https://tiktok.com/@kopinusantara",
+    "tiktok_handle": "@kopinusantara"
+  },
+  "delivery": {
+    "shopeefood": "https://shopee.co.id/universal-link/now-food/shop/kopinusantara",
+    "grabfood": "https://r.grab.com/g/6-kopinusantara"
+  },
+  "maps": {
+    "url": "https://maps.app.goo.gl/kopinusantara",
+    "embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.798467102531!2d107.61911!3d-6.914744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTQnNTMuMSJTIDEwN8KwMzcnMDguOCJF!5e0!3m2!1sid!2sid!4v1696000000000!5m2!1sid!2sid"
+  },
+  "hours": {
+    "weekday": "08:00 – 22:00 WIB",
+    "friday_saturday": "08:00 – 00:00 WIB",
+    "sunday_holiday": "09:00 – 22:00 WIB"
+  }
+}
