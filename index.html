@@ -597,42 +597,125 @@
       <div class="site-container story-grid">
         <div class="story-image-wrap">
           <img src="assets/images/barista-about.jpg" alt="Barista Kopi & Daun meracik kopi" class="story-main-img">
+          
+          <!-- Floating Badge Atas: Rating -->
+          <div class="story-rating-badge">
+            <span class="stars-icon">★★★★★</span>
+            <span class="rating-text">4.9 / 5.0 (1.200+ Ulasan)</span>
+          </div>
+
+          <!-- Floating Badge Bawah: 100% Nusantara -->
           <div class="story-floating-stat">
-            <span class="stat-number">100%</span>
-            <span class="stat-label">Biji Kopi Nusantara Pilihan</span>
+            <div class="stat-icon-wrap">🌿</div>
+            <div>
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Biji Kopi Petani Nusantara</span>
+            </div>
           </div>
         </div>
 
         <div class="story-content">
-          <span class="sub-badge">Filosofi Kami</span>
+          <span class="sub-badge">Filosofi & Kisah Kami</span>
           <h2 class="section-main-heading">Secangkir Kopi di Antara<br>Rindangnya Daun</h2>
           <div class="leaf-divider">🌿</div>
+
+          <!-- Quote Callout Card -->
+          <div class="philosophy-quote-card">
+            <svg class="quote-mark" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+            </svg>
+            <p class="quote-text">
+              "Kopi terbaik bukan sekadar tentang rasa, melainkan tentang momen ketenangan dan kedamaian yang Anda temukan di setiap tegukan."
+            </p>
+          </div>
+
           <p class="story-desc">
-            Di <strong>Kopi & Daun</strong>, kami percaya bahwa secangkir kopi terbaik dinikmati saat pikiran tenang.
-            Terinspirasi dari keasrian alam tropis, kami memadukan aroma kopi segar dari petani lokal dengan atmosfer rimbun yang menyejukkan hati.
+            Di <strong>Kopi & Daun</strong>, kami menggabungkan kekayaan biji kopi specialty pilihan Nusantara dengan sejuknya rimbun daun monstera dan pakis alami. Suasana yang kami ciptakan hadir untuk meredakan penat dan menyambut Anda layaknya rumah kedua.
           </p>
-          <div class="features-list">
-            <div class="feat-item">
-              <div class="feat-icon">🌱</div>
-              <div>
-                <h4>Botanical Ambiance</h4>
-                <p>Dikelilingi tanaman hidup monstera, sirih gading, dan pakis untuk udara yang lebih segar dan suasana tenang.</p>
+
+          <!-- Interactive Feature Cards Grid -->
+          <div class="story-features-grid">
+
+            <!-- Card 1: Botanical Ambiance -->
+            <div class="story-feat-card">
+              <div class="s-feat-icon icon-botanical">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M11 20A7 7 0 0 1 4 13C4 7 11 3 11 3s7 4 7 10a7 7 0 0 1-7 7Z"/>
+                  <path d="M11 8v12"/>
+                  <path d="M11 14h4"/>
+                  <path d="M11 11h-3"/>
+                </svg>
+              </div>
+              <div class="s-feat-body">
+                <div class="s-feat-header">
+                  <h4>Botanical Ambiance</h4>
+                  <span class="s-feat-tag">Tanaman Hidup</span>
+                </div>
+                <p>Tanaman hidup monstera dan sirih gading alami menyaring udara segar dan menghadirkan atmosfer rileks.</p>
               </div>
             </div>
-            <div class="feat-item">
-              <div class="feat-icon">☕</div>
-              <div>
-                <h4>Specialty Roast</h4>
-                <p>Biji kopi arabika dan robusta dipanggang secara presisi oleh roaster dan barista bersertifikat.</p>
+
+            <!-- Card 2: Specialty Roast -->
+            <div class="story-feat-card">
+              <div class="s-feat-icon icon-roast">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                  <line x1="6" y1="1" x2="6" y2="4"/>
+                  <line x1="10" y1="1" x2="10" y2="4"/>
+                  <line x1="14" y1="1" x2="14" y2="4"/>
+                </svg>
+              </div>
+              <div class="s-feat-body">
+                <div class="s-feat-header">
+                  <h4>Specialty Roast & Blend</h4>
+                  <span class="s-feat-tag">Petani Lokal</span>
+                </div>
+                <p>Biji arabika & robusta dipanggang presisi untuk menghasilkan aroma kaya dan rasa seimbang khas Nusantara.</p>
               </div>
             </div>
-            <div class="feat-item">
-              <div class="feat-icon">⚡</div>
-              <div>
-                <h4>Work From Cafe Ramah</h4>
-                <p>WiFi kencang 100 Mbps, colokan di setiap sudut meja, dan musik lofi yang menenangkan fokus.</p>
+
+            <!-- Card 3: Work From Cafe -->
+            <div class="story-feat-card">
+              <div class="s-feat-icon icon-wfc">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+              </div>
+              <div class="s-feat-body">
+                <div class="s-feat-header">
+                  <h4>Work From Cafe Nyaman</h4>
+                  <span class="s-feat-tag">100 Mbps WiFi</span>
+                </div>
+                <p>Colokan listrik di setiap meja, koneksi internet stabil, dan alunan musik lofi untuk fokus produktif Anda.</p>
               </div>
             </div>
+
+            <!-- Card 4: Barista Craftsmanship -->
+            <div class="story-feat-card">
+              <div class="s-feat-icon icon-barista">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M6 3h12l2 6H4l2-6z"/>
+                  <path d="M4 9v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9"/>
+                  <path d="M10 14h4"/>
+                </svg>
+              </div>
+              <div class="s-feat-body">
+                <div class="s-feat-header">
+                  <h4>Barista Dedikasi Tinggi</h4>
+                  <span class="s-feat-tag">SCA Certified</span>
+                </div>
+                <p>Disajikan penuh kehangatan oleh barista tersertifikasi yang berdedikasi menjaga kualitas setiap cangkir.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Trust Pills -->
+          <div class="story-trust-pills">
+            <span class="trust-pill">🌿 Suasana Sejuk Alami</span>
+            <span class="trust-pill">☕ Biji Berkualitas Tinggi</span>
+            <span class="trust-pill">✨ Tempat Bersih & Nyaman</span>
           </div>
         </div>
       </div>
