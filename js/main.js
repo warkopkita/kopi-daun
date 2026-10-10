@@ -7,24 +7,37 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // ══════════════════════════════════════════════════════
-  // 1. TOP VIEW SWITCHER (Mockup, Fullscreen, Mobile)
+  // 1. SIDEBAR VIEW SWITCHER (Mockup, Fullscreen, Mobile)
   // ══════════════════════════════════════════════════════
-  const switchButtons = document.querySelectorAll('.switch-btn');
+  const sidebar = document.getElementById('switcher-sidebar');
+  const btnToggleSidebar = document.getElementById('btn-toggle-sidebar');
+  const btnCloseSidebar = document.getElementById('btn-close-sidebar');
+  const sideSwitchBtns = document.querySelectorAll('.side-switch-btn[data-mode]');
   const body = document.body;
 
-  switchButtons.forEach(btn => {
+  // Toggle open / close sidebar
+  btnToggleSidebar?.addEventListener('click', () => {
+    sidebar?.classList.toggle('open');
+  });
+
+  btnCloseSidebar?.addEventListener('click', () => {
+    sidebar?.classList.remove('open');
+  });
+
+  sideSwitchBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const mode = btn.getAttribute('data-mode');
       
       // Update active button state
-      switchButtons.forEach(b => b.classList.remove('active'));
+      sideSwitchBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
       // Update body class
       body.classList.remove('mode-mockup', 'mode-fullscreen', 'mode-mobile');
       body.classList.add(mode);
 
-      showToast(`Beralih ke: ${btn.querySelector('span').textContent}`);
+      const title = btn.querySelector('.side-btn-info strong')?.textContent || mode;
+      showToast(`Tampilan: ${title}`);
     });
   });
 
